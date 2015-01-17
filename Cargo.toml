@@ -1,5 +1,7 @@
 [package]
-
 name = "tuntap"
 version = "0.0.1"
+description = "Linux TunTap bindings"
+homepage = "https://github.com/manuels/tuntap.rs"
+license = " GPL-2.0"
 authors = ["Manuel Schölling <manuel.schoelling@gmx.de>"]
