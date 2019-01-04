@@ -1,7 +1,15 @@
 [package]
 name = "tuntap"
-version = "0.0.1"
-description = "Linux TunTap bindings"
+version = "0.2.0"
+description = "Linux TunTap bindings for tokio"
 homepage = "https://github.com/manuels/tuntap.rs"
 license = " GPL-2.0"
 authors = ["Manuel Schölling <manuel.schoelling@gmx.de>"]
+edition = "2018"
+
+[dependencies]
+bitflags = "1.0.4"
+libc = "0.2.46"
+tokio = {version = "0.1.0", features = ["async-await-preview"]}
+futures = "0.1.25"
+nix = "0.12.0"
